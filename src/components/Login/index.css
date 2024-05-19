@@ -1,0 +1,165 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+}
+
+.bgLogin {
+  background-color: #f9f9f9;
+  /* ( if we in lightTheme: #f9f9f9, darkTheme:#0f0f0f*/
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: white;
+  /* ( if we in lightTheme: white, darkTheme: black*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 3px 6px 7px 9px #f4f4f4;
+  /* ( if we in lightTheme: 3,6,6,9 pxs, darkTheme: 0 */
+}
+
+.loginDark {
+  background-color: black;
+  box-shadow: none;
+}
+
+.loginLogo {
+  height: 27px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.inputContCheck {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.labelPara {
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:white*/
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.labelParaDark {
+  color: white;
+}
+
+.labelParaCheck {
+  font-size: 14px;
+  font-weight: 500;
+  color: #231f20;
+  /* ( if we in lightTheme: #231f20, darkTheme:white*/
+  margin-left: 5px;
+}
+
+.inputCheckbox {
+  height: 16px;
+  width: 16px;
+}
+
+.inputBox {
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border: 0.8px solid #94a3b8;
+  background-color: transparent;
+  /* ( if a value enter init change to #e2e8f0 */
+  color: black;
+  /* ( if we in lightTheme: black, darkTheme: white */
+  margin: 0px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+.inputBoxDark {
+  color: black;
+}
+
+.loginBtn {
+  color: white;
+  background-color: #3b82f6;
+  height: 40px;
+  width: 100%;
+  border: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: all 0.08s linear;
+}
+
+.loginBtn:hover {
+  background-color: #3b82f6;
+}
+
+.loginBtn:active {
+  transform: translateY(5px);
+}
+
+.errorLogin {
+  color: #ff0b37;
+  font-size: 9px;
+  margin: 0px;
+  align-self: flex-start;
+  margin-top: 3px;
+}
+
+@media (min-width: 768px) {
+  .login {
+    width: 50%;
+  }
+
+  .loginLogo {
+    height: 40px;
+    width: 190px;
+  }
+
+  .labelPara {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .inputBox {
+    height: 20px;
+  }
+
+  .errorLogin {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .login {
+    width: 40%;
+  }
+}

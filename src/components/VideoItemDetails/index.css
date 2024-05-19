@@ -1,0 +1,329 @@
+.bgnvf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.nvf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.nvfImg {
+  height: 200px;
+  width: 250px;
+  margin: 30px;
+}
+
+.nvfHead {
+  color: #1e293b;
+  /* ( if we in lightTheme: #1e293b, darkTheme:white*/
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 17px;
+}
+
+.nvfHeadDark {
+  color: white;
+}
+
+.nvfPara {
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 17px;
+}
+
+.nvfParaDark {
+  color: #94a3b8;
+}
+
+.nvfRetryBtn {
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .nvfImg {
+    height: 300px;
+    width: 370px;
+  }
+
+  .nvfHead {
+    font-size: 30px;
+  }
+
+  .nvfPara {
+    font-size: 25px;
+  }
+
+  .nvfRetryBtn {
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+  }
+}
+
+/* Video Item ,Went Wrong, + all Home  ------------*/
+.bgVideoItem {
+  padding: 10px;
+  padding-top: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-width: 80vw;
+  background-color: #f9f9f9;
+  /* ( if we in lightTheme: #f9f9f9, darkTheme:#0f0f0f*/
+}
+
+.videoItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerCont {
+  width: 100%;
+}
+
+.playerImg {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.playerHead {
+  color: #0f0f0f;
+  /* ( if we in lightTheme: #0f0f0f, darkTheme:#f9f9f9*/
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.playerHeadDark {
+  color: #f9f9f9;
+}
+
+.datesLikesCont {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+.datesUl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.dateLi {
+  margin: 10px;
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  font-size: 13px;
+}
+
+.dateLiDark {
+  color: #94a3b8;
+}
+
+.likesUl {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.likeLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.likeBtn {
+  color: #64748b;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  background-color: transparent;
+}
+
+.likeBtnDark {
+  color: #94a3b8;
+}
+
+.activeLike {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.likeIcon {
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.likePara {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.hrLine {
+  border: 1px solid #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  width: 100%;
+}
+
+.hrLineDark {
+  color: #94a3b8;
+}
+
+.channelCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.channelImg {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.titleSubCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelTitle {
+  color: #0f0f0f;
+  /* ( if we in lightTheme: #0f0f0f, darkTheme:#f9f9f9*/
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+.channelTitleDark {
+  color: #f9f9f9;
+}
+
+.channelSub {
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  font-size: 13px;
+  margin: 0px;
+}
+
+.channelSubDark {
+  color: #94a3b8;
+}
+
+.description {
+  color: #424242;
+  /* ( if we in lightTheme: #424242, darkTheme:#f9f9f9*/
+  font-size: 13px;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.descriptionDark {
+  color: #f9f9f9;
+}
+
+@media (min-width: 768px) {
+  .videoItem {
+    padding: 20px;
+  }
+
+  .playerImg {
+    height: 350px;
+  }
+
+  .playerHead {
+    font-size: 20px;
+  }
+
+  .dateLi {
+    font-size: 17px;
+  }
+
+  .datesLikesCont {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .likeIcon {
+    font-size: 20px;
+  }
+
+  .likePara {
+    font-size: 20px;
+  }
+
+  .channelImg {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  .channelTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .channelSub {
+    font-size: 15px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .playerImg {
+    height: 500px;
+  }
+}

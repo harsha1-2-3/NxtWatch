@@ -1,0 +1,291 @@
+.link {
+  text-decoration: none;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+/* Popup */
+.bgPopup {
+  margin: 10px;
+  background-color: white;
+  /* ( if we in lightTheme: white, darkTheme:#231f20*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.bgPopupDark {
+  background-color: #231f20;
+}
+
+.logoutPara {
+  color: #0f0f0f;
+  /* ( if we in lightTheme: #0f0f0f, darkTheme:#f9f9f9*/
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logoutBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancelBtn {
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  border: 1px solid #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.confirmBtn {
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #3b82f6;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 100px;
+}
+
+.menuClsBtn {
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+}
+
+/* Header */
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+}
+
+.bgHeader {
+  background-color: white;
+  /* ( if we in lightTheme: white, darkTheme: #231f20*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  min-height: 8vh;
+}
+
+.bgSmUlDrop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.smLiDrop {
+  margin: 0px;
+  color: #475569;
+  /* ( if we in lightTheme: #475569, darkTheme: white*/
+  width: 90%;
+  padding: 15px;
+}
+.smLiDropDark {
+  color: white;
+}
+
+.activeSmTab {
+  color: #181818;
+  /* ( if we in lightTheme: #181818, darkTheme: white*/
+  background-color: #f1f5f9;
+  /* ( if we in lightTheme: #f1f5f9, darkTheme: #424242*/
+  margin: 0px;
+  font-weight: bold;
+}
+.activeSmTabDark {
+  color: white;
+  background-color: #424242;
+}
+
+.headerSm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogoBtn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  transition: all 0.08s linear;
+}
+
+.headerLogoBtn:hover {
+  background-color: transparent;
+}
+
+.headerLogoBtn:active {
+  transform: translateY(5px);
+}
+
+.headerLogo {
+  height: 25px;
+  width: 100px;
+}
+
+.smTabsUl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.smTabLi {
+  margin: 10px;
+}
+
+.smIcon {
+  font-size: 25px;
+  color: black;
+  /* ( if we in lightTheme: black, darkTheme:white*/
+  height: 25px;
+  width: 25px;
+}
+.smIconDark {
+  color: white;
+}
+
+.headThemeBtn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  transition: all 0.1s linear;
+}
+
+.headThemeBtn:hover {
+  background-color: transparent;
+}
+
+.headThemeBtn:active {
+  transform: translateY(8px);
+}
+
+.smIconProfile {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+.smLogoutBtn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.08s linear;
+}
+
+.smLogoutBtn:hover {
+  background-color: transparent;
+}
+
+.smLogoutBtn:active {
+  transform: translateX(5px);
+}
+
+.headerLg {
+  display: none;
+}
+
+.lgLogoutBtn {
+  background-color: transparent;
+  color: #3b82f6;
+  /* ( if we in lightTheme: #3b82f6, darkTheme:white */
+  border: 2px solid #3b82f6;
+  /* ( if we in lightTheme: #3b82f6, darkTheme: white */
+}
+.lgLogoutBtnDark {
+  color: white;
+  border: 2px solid white;
+}
+
+@media (min-width: 768px) {
+  .bgSmUlDrop {
+    display: none;
+  }
+
+  .headerSm {
+    display: none;
+  }
+
+  .headerLg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .headerLogo {
+    height: 40px;
+    width: 180px;
+  }
+
+  .bgHeader {
+    height: 8vh;
+  }
+
+  .lgTabsUl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .lgTabLi {
+    margin: 10px;
+  }
+
+  .lgLogoutBtn {
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    transition: all 0.08s linear;
+  }
+
+  .lgLogoutBtn:hover {
+    border-radius: 2px;
+  }
+
+  .lgLogoutBtn:active {
+    transform: translateY(5px);
+  }
+}

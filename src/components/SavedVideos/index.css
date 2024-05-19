@@ -1,0 +1,256 @@
+.bgVideosBannerCont {
+  background-color: #f9f9f9;
+  /* ( if we in lightTheme: #f9f9f9, darkTheme:#0f0f0f*/
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+/* Trending , Went Wrong + all Home ------------*/
+.trendBanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f4f4f4;
+  /* ( if we in lightTheme: #f4f4f4, darkTheme:#231f20*/
+  padding: 20px;
+  margin: 0px;
+  width: 90%;
+}
+.trendBannerDark {
+  background-color: #231f20;
+}
+
+.trendLogoCont {
+  background-color: #d7dfe9;
+  /* ( if we in lightTheme: #d7dfe9, darkTheme:black*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.trendLogoContDark {
+  background-color: black;
+}
+
+.trendLogo {
+  color: #ff0000;
+  font-size: 25px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trendHead {
+  color: #231f20;
+  /* ( if we in lightTheme: #231f20, darkTheme: white */
+  font-weight: bold;
+  font-size: 23px;
+}
+.trendHeadDark {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .trendLogoCont {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+  }
+
+  .trendHead {
+    font-size: 27px;
+  }
+}
+
+/*  Home, No Videos ,Went Wrong ------------ */
+.bgnvf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+.nvf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.nvfImg {
+  height: 200px;
+  width: 250px;
+  margin: 30px;
+}
+
+.nvfHead {
+  color: #1e293b;
+  /* ( if we in lightTheme: #1e293b, darkTheme:white*/
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 17px;
+}
+.nvfHeadDark {
+  color: white;
+}
+.nvfPara {
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 17px;
+}
+.nvfParaDark {
+  color: #94a3b8;
+}
+
+.nvfRetryBtn {
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .nvfImg {
+    height: 300px;
+    width: 370px;
+  }
+
+  .nvfHead {
+    font-size: 30px;
+  }
+
+  .nvfPara {
+    font-size: 25px;
+  }
+
+  .nvfRetryBtn {
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+  }
+}
+
+/* Saved Videos, Went Wrong, + all Home + TrendingBanner ------------*/
+.savedVideosUl {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.savedVideoLi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.savedImg {
+  height: 180px;
+  width: 90%;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.detailsCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+}
+
+.videoTitle {
+  color: #0f0f0f;
+  /* ( if we in lightTheme: #0f0f0f, darkTheme:#f9f9f9*/
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.videoTitleDark {
+  color: #f9f9f9;
+}
+
+.channelName {
+  color: #616e7c;
+  /* ( if we in lightTheme: #616e7c, darkTheme:#94a3b8*/
+  font-size: 15px;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.channelNameDark {
+  color: #94a3b8;
+}
+
+.datesViewsUl {
+  display: flex;
+  padding: 0px;
+  list-style-type: disc;
+  padding-left: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.datesViewLi {
+  color: #606060;
+  /* ( if we in lightTheme: #606060, darkTheme:#94a3b8*/
+  font-size: 13px;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.datesViewLiDark {
+  color: #94a3b8;
+}
+
+@media (min-width: 768px) {
+  .savedVideoLi {
+    margin: 0px;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .savedImg {
+    margin-right: 10px;
+    width: 250px;
+    height: 150px;
+  }
+
+  .detailsCont {
+    padding-top: 10px;
+    align-self: flex-start;
+    width: 40%;
+  }
+
+  .videoTitle {
+    margin-bottom: 10px;
+  }
+}

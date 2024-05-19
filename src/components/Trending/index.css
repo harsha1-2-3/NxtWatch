@@ -1,0 +1,263 @@
+* {
+  font-family: Roboto;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+/* Trending , Went Wrong + VideosCont ------------*/
+.trendBanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f4f4f4;
+  /* ( if we in lightTheme: #f4f4f4, darkTheme:#231f20*/
+  padding: 20px;
+  margin: 0px;
+  width: 90%;
+}
+.trendBannerDark {
+  background-color: #231f20;
+}
+
+.trendLogoCont {
+  background-color: #d7dfe9;
+  /* ( if we in lightTheme: #d7dfe9, darkTheme:black*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.trendLogoContDark {
+  background-color: black;
+}
+
+.trendLogo {
+  color: #ff0000;
+  font-size: 25px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trendHead {
+  color: #231f20;
+  /* ( if we in lightTheme: #231f20, darkTheme: white */
+  font-weight: bold;
+  font-size: 23px;
+}
+.trendHeadDark {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .trendLogoCont {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+  }
+
+  .trendHead {
+    font-size: 27px;
+  }
+}
+
+/*  Home, No Videos ,Went Wrong ------------ */
+.bgnvf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+.nvf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.nvfImg {
+  height: 200px;
+  width: 250px;
+  margin: 30px;
+}
+
+.nvfHead {
+  color: #1e293b;
+  /* ( if we in lightTheme: #1e293b, darkTheme:white*/
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 17px;
+}
+.nvfHeadDark {
+  color: white;
+}
+
+.nvfPara {
+  color: #7e858e;
+  /* ( if we in lightTheme: #7e858e, darkTheme:#94a3b8*/
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 17px;
+}
+.nvfParaDark {
+  color: #94a3b8;
+}
+
+.nvfRetryBtn {
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .nvfImg {
+    height: 300px;
+    width: 370px;
+  }
+
+  .nvfHead {
+    font-size: 30px;
+  }
+
+  .nvfPara {
+    font-size: 25px;
+  }
+
+  .nvfRetryBtn {
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+  }
+}
+
+.videosCont {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.videoLi {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  height: 230px;
+  width: 300px;
+}
+
+.videoImg {
+  height: 170px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.videoDetailsCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.channelLogo {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  align-self: flex-start;
+}
+
+.titleViewsDateCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleHead {
+  color: #231f20;
+  /* ( if we in lightTheme: #231f20, darkTheme:white*/
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 20px;
+}
+.titleHeadDark {
+  color: white;
+}
+
+.viewsDateUl {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.viewsDateLi {
+  list-style-type: disc;
+  color: #606060;
+  /* ( if we in lightTheme: #606060, darkTheme:#94a3b8*/
+  font-size: 12px;
+  margin: 10px;
+  text-align: left;
+}
+.viewsDateLiDark {
+  color: #94a3b8;
+}
+
+@media (min-width: 768px) {
+  .bgBanner {
+    height: 170px;
+    justify-content: center;
+  }
+
+  .bannerLogo {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 170px;
+  }
+
+  .bannerPara {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .homeVideosCont {
+    min-width: 80vw;
+  }
+
+  .videosCont {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .videoLi {
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+  }
+}

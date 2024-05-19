@@ -1,0 +1,54 @@
+.lgLiSideTab {
+  margin: 0px;
+  width: 90%;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.lgLiTabBtn {
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0px;
+}
+
+.lgSideIcon {
+  font-size: 17px;
+  color: black;
+  /* ( if we in lightTheme: black, darkTheme:#909090*/
+  height: 17px;
+  width: 17px;
+}
+
+.lgSideIconDark {
+  color: #909090;
+}
+
+.lgSideLiActive {
+  background-color: #f1f5f9;
+  /* ( if we in lightTheme: #f1f5f9, darkTheme:#383838*/
+}
+
+.lgSideIconActiveDark {
+  background-color: #383838;
+}
+
+.lgSideIconActive {
+  color: #f00000;
+  font-weight: bold;
+}
+
+.lgSideTabPara {
+  color: #475569;
+  /* ( if we in lightTheme: #475569, darkTheme: white*/
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.lgSideTabParaDark {
+  color: white;
+}
